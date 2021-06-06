@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    freopen("in.txt", "r", stdin);
+    //freopen("in.txt", "r", stdin);
     int TC;
     scanf("%d", &TC);
     for(int tc = 1; tc <= TC; tc++){
