@@ -22,7 +22,7 @@
 		{
 			"type": "shell",
 			"label": "build & run with c++ 11",
-			"command": "clear && time ( echo 'started!' && echo '------------' && ${fileDirname}/${fileBasenameNoExtension} && echo '------------' && echo 'ended!' && echo '' && echo 'program took:')",
+			"command": "clear && time ( echo 'started!' && echo '------------' && ${fileDirname}/${fileBasenameNoExtension} && echo '------------' && echo 'ended!' && echo '' && echo 'execution time stats:')",
 			"dependsOrder": "sequence",
 			"dependsOn": [
 				"g++ build active file"
@@ -31,6 +31,14 @@
 			"group": {
 				"kind": "build",
 				"isDefault": true
+			},
+			"presentation": {
+				"echo": false,
+				"reveal": "always",
+				"focus": true,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": true
 			}
 		}
 	]
