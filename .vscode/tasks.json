@@ -5,15 +5,33 @@
 			"type": "shell",
 			"label": "g++ build active file",
 			"command": "/usr/bin/g++",
-			"args": ["-g", "${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}"],
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}"
+			],
 			"options": {
-			  "cwd": "/usr/bin"
+				"cwd": "/usr/bin"
 			},
-			"problemMatcher": ["$gcc"],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"type": "shell",
+			"label": "build & run with c++ 11",
+			"command": "${fileDirname}/${fileBasenameNoExtension}",
+			"dependsOrder": "sequence",
+			"dependsOn": [
+				"g++ build active file"
+			],
+			"problemMatcher": [],
 			"group": {
-			  "kind": "build",
-			  "isDefault": true
+				"kind": "build",
+				"isDefault": true
 			}
-		  }
+		}
 	]
 }
