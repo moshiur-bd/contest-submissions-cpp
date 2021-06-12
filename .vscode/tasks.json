@@ -12,7 +12,7 @@
 				"${fileDirname}/${fileBasenameNoExtension}"
 			],
 			"options": {
-				"cwd": "/usr/bin"
+				"cwd": "${fileDirname}"
 			},
 			"problemMatcher": [
 				"$gcc"
@@ -27,6 +27,9 @@
 			"dependsOn": [
 				"g++ build active file"
 			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
 			"problemMatcher": [],
 			"group": {
 				"kind": "build",
