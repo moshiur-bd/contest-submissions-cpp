@@ -22,7 +22,7 @@
 		{
 			"type": "shell",
 			"label": "build & run with c++ 11",
-			"command": "${fileDirname}/${fileBasenameNoExtension}",
+			"command": "clear && time ( echo 'started!' && echo '------------' && ${fileDirname}/${fileBasenameNoExtension} && echo '------------' && echo 'ended!' && echo '' && echo 'program took:')",
 			"dependsOrder": "sequence",
 			"dependsOn": [
 				"g++ build active file"

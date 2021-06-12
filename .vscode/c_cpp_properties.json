@@ -1,14 +1,14 @@
 {
   "configurations": [
     {
-      "name": "linux-gcc-x64",
+      "name": "linux-undefined-undefined",
       "includePath": [
         "${workspaceFolder}/**"
       ],
       "compilerPath": "gcc",
       "cStandard": "${default}",
       "cppStandard": "${default}",
-      "intelliSenseMode": "linux-gcc-x64",
+      "intelliSenseMode": "linux-undefined-undefined",
       "compilerArgs": [
         "-Wall",
         "-Wextra",
