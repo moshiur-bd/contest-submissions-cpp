@@ -1,1 +1,14 @@
 codeforces/mango
+
+
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Ignore .testcase of mango
+*.testcase
