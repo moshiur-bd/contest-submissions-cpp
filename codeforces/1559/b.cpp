@@ -38,7 +38,31 @@ int main(){
     int TC;
     scanf("%d", &TC);
     for(int tc = 1; tc <= TC; tc++){
-        printf("Case %d: ...\n", tc);
+        int n;
+        string s;
+        cin >> n >> s;
+        for(int i = 0; i < n; i++){
+            if(s[i] == '?'){
+                if(i > 0 && s[i-1] != '?'){
+                    s[i] = (s[i-1] == 'B') ? 'R' : 'B';
+                } else {
+                    int dist = 1;
+                    char selCol = 'B';
+                    while(i + dist < n && s[i+dist] == '?'){
+                        dist++;
+                    }
+                    if(i + dist < n){
+                        if(dist %2 == 0){
+                            selCol = s[i+dist];
+                        } else{
+                            selCol = (s[i+dist] == 'B') ? 'R' : 'B';
+                        }
+                    }
+                    s[i] = selCol;
+                }
+            }
+        }
+        cout << s << "\n";
     }
     return 0;
 }
