@@ -1,0 +1,3 @@
+-Wall
+-I/usr/include/c++/12.2.1/aarch64-alpine-linux-musl
+-I/usr/include/c++/12.2.1
