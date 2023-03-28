@@ -1,0 +1,13 @@
+{
+ "Name": "B. Three Sevens",
+ "TimeLimit": 2,
+ "MemoryLimit": 256,
+ "Dataset": [
+  {
+   "Input": "\u003cdiv class=\"test-example-line test-example-line-even test-example-line-0\"\u003e3\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-1\"\u003e3\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-1\"\u003e4\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-1\"\u003e1 2 4 8\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-1\"\u003e3\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-1\"\u003e2 9 1\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-1\"\u003e2\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-1\"\u003e1 4\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-even test-example-line-2\"\u003e2\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-even test-example-line-2\"\u003e2\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-even test-example-line-2\"\u003e1 2\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-even test-example-line-2\"\u003e2\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-even test-example-line-2\"\u003e2 1\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-3\"\u003e4\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-3\"\u003e4\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-3\"\u003e1 2 3 4\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-3\"\u003e1\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-3\"\u003e1\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-3\"\u003e1\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-3\"\u003e4\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-3\"\u003e1\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-3\"\u003e3\u003c/div\u003e",
+   "Output": "8 2 1\n-1\n2 1 4 3",
+   "TimeLimit": 2,
+   "MemoryLimit": 256
+  }
+ ]
+}

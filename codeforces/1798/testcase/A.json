@@ -1,0 +1,13 @@
+{
+ "Name": "A. Showstopper",
+ "TimeLimit": 2,
+ "MemoryLimit": 256,
+ "Dataset": [
+  {
+   "Input": "\u003cdiv class=\"test-example-line test-example-line-even test-example-line-0\"\u003e7\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-1\"\u003e3\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-1\"\u003e7 9 7\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-1\"\u003e7 6 9\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-even test-example-line-2\"\u003e4\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-even test-example-line-2\"\u003e10 10 15 15\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-even test-example-line-2\"\u003e10 16 15 15\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-3\"\u003e2\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-3\"\u003e100 99\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-3\"\u003e99 100\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-even test-example-line-4\"\u003e1\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-even test-example-line-4\"\u003e1\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-even test-example-line-4\"\u003e1\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-5\"\u003e9\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-5\"\u003e1 2 3 4 5 6 7 8 9\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-5\"\u003e9 9 9 9 9 9 6 6 6\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-even test-example-line-6\"\u003e7\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-even test-example-line-6\"\u003e1 1 2 2 1 1 2\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-even test-example-line-6\"\u003e1 2 1 2 1 2 1\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-7\"\u003e2\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-7\"\u003e30 4\u003c/div\u003e\u003cdiv class=\"test-example-line test-example-line-odd test-example-line-7\"\u003e5 30\u003c/div\u003e",
+   "Output": "Yes\nNo\nYes\nYes\nYes\nNo\nNo",
+   "TimeLimit": 2,
+   "MemoryLimit": 256
+  }
+ ]
+}
